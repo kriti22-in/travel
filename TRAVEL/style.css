@@ -1,0 +1,171 @@
+.body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  padding: 0;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.destination {
+  margin-bottom: 30px;
+  text-align: center; /* Added this line to center the content */
+}
+
+.destination img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Center the images */
+}
+
+.destination h3 {
+  color: #3498db;
+}
+
+.package {
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.package h3 {
+  color: #2980b9;
+  margin-top: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid #3498db;
+  padding-left: 20px;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  margin-top: 10px;
+}
+
+input[type="email"] {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px 0 0 3px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0 3px 3px 0;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2rem;
+  }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .package,
+  .destination {
+      padding: 10px;
+  }
+
+  form {
+      flex-direction: column;
+  }
+
+  input[type="email"],
+  button {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 3px;
+  }
+}
+.destination img{
+  height: 300px;
+}
